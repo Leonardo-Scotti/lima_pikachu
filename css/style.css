@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+:root {
+    --primary-color: #8e4106;
+    --secundary-color: #f5cf06;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Righteous", sans-serif;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 150px 1fr 50px;
+}
+
+header {
+    background-color: aqua;
+}
+
+main {
+    background-color: tomato;
+}
+
+footer {
+    background-color: greenyellow;
+}
